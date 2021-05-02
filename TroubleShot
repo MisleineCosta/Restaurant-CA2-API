@@ -1,0 +1,66 @@
+
+// TO ADD HEROKU 
+npm i -g heroku
+$ brew install git-gui
+heroku login -i
+heroku status
+heroku create --region eu
+git remote set-url heroku https://git.heroku.com/floating-ocean-67303.git
+git commit -am "heroku changes"
+git push heroku master
+git push heroku main  
+heroku logs
+//
+$ heroku git:clone -a agile-cove-82309
+$ cd agile-cove-82309
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+//
+
+node --version
+v14.15.4
+npm --version
+6.14.11
+git --version
+git version 2.28.0
+
+//
+If you use npm:
+git rm yarn.lock
+git commit -m "Remove yarn lock file"
+git push heroku master
+//
+
+If you use yarn:
+git rm package-lock.json
+git commit -m "Remove npm lock file"
+git push heroku master
+//
+
+heroku login
+heroku: Press any key to open up the browser to login or q to exit
+ ›   Warning: If browser does not open, visit
+ ›   https://cli-auth.heroku.com/auth/browser/***
+heroku: Waiting for login...
+Logging in... done
+Logged in as me@example.com
+
+//
+git rm -r node-models data .env
+
+//
+
+DB_URL = "mongodb+srv://new-user:vY6aKdgtXMzdFZtw@costa.xrtym.mongodb.net"
+
+//
+
+Check out the branch you're interested in (i.e. which belongs to the video in my series you just watched), git clone it and thereafter run npm install.
+
+//
+
+HEROKU LINK
+https://git.heroku.com/sheltered-cliffs-92905.git
+
+//
