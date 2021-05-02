@@ -1,0 +1,34 @@
+{
+  "name": "restaurantca2api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willianrcurcio/wrc.git"
+  },
+  "author": "Misleine 2018428",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willianrcurcio/wrc/issues"
+  },
+  "homepage": "https://github.com/willianrcurcio/wrc#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dompurify": "^2.2.8",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jsdom": "^16.5.3",
+    "marked": "^2.0.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "slugify": "^1.5.0"
+  }
+}

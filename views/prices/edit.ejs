@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>RESTAURANT</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-4">Edit Prices</h1>
+      <% prices.forEach(price => { %> <%- include('_form_fields', {price:
+      price}); %> <% }) %>
+      <h1 class="mb-4">Create price</h1>
+      <form action="/prices/" method="POST">
+        <div class="form-group">
+          Name:
+          <input required type="text" class="form-control" name="name" />
+          Description:
+          <input required type="text" class="form-control" name="description" />
+          Price:
+          <input
+            required
+            type="number"
+            class="form-control"
+            name="price"
+          /><br />
+          <a href="/" class="btn btn-secondary">Cancel</a>
+          <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
