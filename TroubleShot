@@ -62,3 +62,6 @@ Check out the branch you're interested in (i.e. which belongs to the video in my
 
 git add .
 git commit -m 'delete file'
+git remote add origin git@github.com/MisleineCosta/Restaurant-CA2-API.git
+git push
+git remote -v
