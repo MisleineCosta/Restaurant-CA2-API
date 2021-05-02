@@ -1,6 +1,6 @@
 # Creating a RESTful API with Node.js
 
-This repository accompanies my comment on the YouTube video on building a RESTful API with Node.js: CA2 Interactive Web Application - Final year.
+This repository accompanies my comment on the YouTube video on building a RESTful API with Node.js: CA1 Seeking out CA2 Interactive Web Application.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://azure-rabbit-k9rp53b4.ws-eu04.gitpod.io/#/workspace/Restaurant-CA2-API) 
 

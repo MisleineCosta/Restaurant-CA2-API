@@ -52,7 +52,7 @@ git rm -r node-models data .env
 
 //
 
-DB_URL = "mongodb+srv://new-user:vY6aKdgtXMzdFZtw@costa.xrtym.mongodb.net"
+MONGODB = "mongodb+srv://new-user:vY6aKdgtXMzdFZtw@costa.xrtym.mongodb.net"
 
 //
 
@@ -60,7 +60,3 @@ Check out the branch you're interested in (i.e. which belongs to the video in my
 
 //
 
-HEROKU LINK
-https://git.heroku.com/sheltered-cliffs-92905.git
-
-//
