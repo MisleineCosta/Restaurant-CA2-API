@@ -5,15 +5,18 @@ const priceRouter = require("./routes/prices");
 const methodOverride = require("method-override");
 const app = express();
 
+require('dotenv').config()
+
 var port = process.env.PORT || 5000; // Declaring to ports to support heroku
-mongoose.connect("mongodb://localhost:27017/menu", {
+//console.log(process.env.MONGODB)
+mongoose.connect(process.env.MONGODB, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
 });
 
 const db = mongoose.connection;
-db.once("open", () => console.log("We are connected to database"));
+db.once("open", () => console.log("From mongoDB: You are connected to database"));
 //db.on('error', (error) => console.error(error))
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
