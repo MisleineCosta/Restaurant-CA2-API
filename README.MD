@@ -6,6 +6,8 @@ This repository accompanies my comment on the YouTube video on building a RESTfu
 
 [![Github Ready-to-Code](https://img.shields.io/badge/Github-ready--to--code-blue?logo=gitpod)](https://github.com/MisleineCosta/Restaurant-CA2-API)
 
+[![Heroku Ready-to-Code](https://img.shields.io/badge/Heroku-ready--to--code-blue?logo=gitpod)](https://afternoon-brook-31434.herokuapp.com/)
+
 # Usage
 
 Feel free to check out the branch if you are interested in '' 'git clone' '' and then run '' 'npm install' ''.
