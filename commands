@@ -1,0 +1,11 @@
+npm i -g heroku
+heroku login -i
+heroku status
+heroku create --region eu
+git remote set-url heroku https://git.heroku.com/floating-ocean-67303.git
+git commit -am "heroku changes"
+git push heroku master
+git push heroku main  
+heroku logs
+
+heroku https://git.heroku.com/afternoon-brook-31434.git
